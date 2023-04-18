@@ -13,12 +13,17 @@ function App() {
   }
 
   return (
+    <>
+        <div className="designelement-left"></div>
+        <div className="designelement-right"></div>
         <div className='container'>
+          
       <div className='row'>
         <div className='col header'>
           <h1 className="h1-price">Our Pricing</h1>
         </div>
       </div>
+      <div>
       <div className='row'>
         <div className="col toggler-part">
           <h2 className="h2-price">Annually</h2>
@@ -26,6 +31,8 @@ function App() {
           <h2 className="h2-price">Monthly</h2>
         </div>  
       </div>
+      </div>
+      <div className="card-part">
       <div className="row">
         <div className="col card">
           <h2 className="h2-price">Basic</h2>
@@ -56,7 +63,9 @@ function App() {
           <button className="price-btn">Learn More</button>
         </div>
       </div>
+      </div>
     </div>
+    </>
   );
 }
 
